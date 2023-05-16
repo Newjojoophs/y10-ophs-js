@@ -1,0 +1,12 @@
+import random
+chance = ["heads","tails"]
+
+coin=random.choice(chance)
+
+user= input ("Guess heads or tails")
+
+if user == coin:
+  print ("you win")
+else:
+  print("badluck")
+  print ("it was not",user)
