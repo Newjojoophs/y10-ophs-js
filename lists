@@ -1,0 +1,5 @@
+Teams = ["manchester united", "chelsea", "brentford"]
+print(Teams) #prints whole list
+print(Teams[0])#Indexing
+print(Teams[1])#Displays diffrent index
+print(Teams[1:3])#displays specifix index
