@@ -1,0 +1,5 @@
+notepad = open ("numbers.txt", "w")
+nums = "5, 4, 3, 2, 1"
+notepad.write(nums)
+notepad.close()
+print("\nGo and open read.txt")
